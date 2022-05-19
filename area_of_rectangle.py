@@ -1,0 +1,12 @@
+
+width = float(input('Please Enter the Width of a Rectangle: '))
+height = float(input('Please Enter the Height of a Rectangle: '))
+
+# calculate the area
+Area = width * height
+
+# calculate the Perimeter
+Perimeter = 2 * (width + height)
+
+print("\n Area of a Rectangle is " ,Area)
+print(" Perimeter of Rectangle is ", Perimeter)
